@@ -1,0 +1,5 @@
+#! /bin/bash
+
+name=Jeremiah-J-Emmanuel
+password=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
+echo -e "$name\n$password"|"git push -u origin main"
