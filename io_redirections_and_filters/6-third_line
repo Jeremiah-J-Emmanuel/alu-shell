@@ -1,2 +1,2 @@
-new=head -n 3 ./iacta #!/bin/bash
-tail -n 1 $new
+#!/bin/bash
+tail -n 1 <(head -n 3 ./iacta)
