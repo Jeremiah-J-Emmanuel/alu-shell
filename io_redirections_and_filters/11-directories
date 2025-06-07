@@ -1,2 +1,3 @@
 #!/bin/bash
-wc-l < (hread )
+wc -l < <(find . -type d ! -name '.' ! -name '..')
+
