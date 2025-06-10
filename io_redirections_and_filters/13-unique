@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(uniq < <(sort))"
+sort | uniq -u 
